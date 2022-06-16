@@ -12,6 +12,29 @@
             "XnView"
         ]
     ],
+    "pre_install": [
+        "# --- If xnview.ini exists as a folder, then remove it ---",
+        "if (Test-Path \"$persist_dir\\xnview.ini\" -PathType Container) {",
+        "    Remove-Item \"$persist_dir\\xnview.ini\" -Force -Recurse",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\xnview.ini\")) {",
+        "   New-Item \"$dir\\xnview.ini\" -ItemType File | Out-Null",
+        "}",
+        "# --- If category.db exists as a folder, then remove it ---",
+        "if (Test-Path \"$persist_dir\\category.db\" -PathType Container) {",
+        "    Remove-Item \"$persist_dir\\category.db\" -Force -Recurse",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\category.db\")) {",
+        "   New-Item \"$dir\\category.db\" -ItemType File | Out-Null",
+        "}"
+    ],
+    "uninstaller": {
+        "script": [
+            "# Manually copy because Xnview overwrites hardlink with a regular file, which breaks persist",
+            "if ((Test-Path \"$dir\\xnview.ini\") -and !(Get-Item \"$dir\\xnview.ini\").LinkType -and (Test-Path $persist_dir)) { Copy-Item \"$dir\\xnview.ini\" $persist_dir -Force }",
+            "if ((Test-Path \"$dir\\category.db\") -and !(Get-Item \"$dir\\category.db\").LinkType -and (Test-Path $persist_dir)) { Copy-Item \"$dir\\category.db\" $persist_dir -Force }"
+        ]
+    },
     "persist": [
         "xnview.ini",
         "category.db"
