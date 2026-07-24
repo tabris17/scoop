@@ -4,7 +4,7 @@
     "homepage": "https://frankenphp.dev",
     "license": "MIT",
     "url": "https://github.com/php/frankenphp/releases/latest/download/frankenphp-windows-x86_64.zip",
-    "hash": "c1955f638d740e8476f111a37305d36b56e69d714c8da3bf08f90703c5a5f21c",
+    "hash": "a02a4a54ba0afa60e6284c90bcd9e0d46268b403cd90a5f3f36491001bc3648d",
     "bin": "frankenphp.exe",
     "checkver": {
         "github": "https://github.com/php/frankenphp"
