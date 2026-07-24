@@ -1,0 +1,15 @@
+{
+    "version": "1.12.6",
+    "description": "The modern PHP app server",
+    "homepage": "https://frankenphp.dev",
+    "license": "MIT",
+    "url": "https://github.com/php/frankenphp/releases/latest/download/frankenphp-windows-x86_64.zip",
+    "hash": "c1955f638d740e8476f111a37305d36b56e69d714c8da3bf08f90703c5a5f21c",
+    "bin": "frankenphp.exe",
+    "checkver": {
+        "github": "https://github.com/php/frankenphp"
+    },
+    "autoupdate": {
+        "url": "https://github.com/php/frankenphp/releases/latest/download/v$version/frankenphp-windows-x86_64.zip"
+    }
+}
