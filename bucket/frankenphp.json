@@ -10,6 +10,6 @@
         "github": "https://github.com/php/frankenphp"
     },
     "autoupdate": {
-        "url": "https://github.com/php/frankenphp/releases/latest/download/v$version/frankenphp-windows-x86_64.zip"
+        "url": "https://github.com/php/frankenphp/releases/download/v$version/frankenphp-windows-x86_64.zip"
     }
 }
