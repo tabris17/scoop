@@ -15,6 +15,6 @@
         "github": "https://github.com/tabris17/TTSG"
     },
     "autoupdate": {
-        "url": "https://github.com/tabris17/TTSG/releases/download/v$version/ttsg-v$version-msvc.exe"
+        "url": "https://github.com/tabris17/TTSG/releases/download/v$version/ttsg-v$version-msvc.exe#/ttsg.exe"
     }
 }
