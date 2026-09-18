@@ -20,6 +20,7 @@ scoop install tabris17/<app-name>
 | --- | --- | --- |
 | `agent-browser` | Browser automation CLI for AI agents. Includes the bundled `skills` docs compared with the official manifest. | https://agent-browser.dev |
 | `frankenphp` | Modern PHP app server | https://frankenphp.dev |
+| `lazycli` | Natural Language to Shell Command via LLM | https://github.com/tabris17/lazycli |
 | `mago` | Toolchain for PHP code quality and developer tooling | http://mago.carthage.software |
 | `roadrunner` | High-performance PHP application server and process manager | https://roadrunner.dev |
 | `traynard` | Windows desktop utility for minimizing app windows to the system tray | https://github.com/tabris17/traynard |
@@ -30,6 +31,7 @@ scoop install tabris17/<app-name>
 ```powershell
 scoop install tabris17/agent-browser
 scoop install frankenphp
+scoop install lazycli
 scoop install mago
 scoop install roadrunner
 scoop install traynard
