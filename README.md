@@ -21,7 +21,9 @@ scoop install tabris17/<app-name>
 | `agent-browser` | Browser automation CLI for AI agents. Includes the bundled `skills` docs compared with the official manifest. | https://agent-browser.dev |
 | `frankenphp` | Modern PHP app server | https://frankenphp.dev |
 | `lazycli` | Natural Language to Shell Command via LLM | https://github.com/tabris17/lazycli |
+| `lightcraft` | An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust | https://github.com/storytold/lightcraft |
 | `mago` | Toolchain for PHP code quality and developer tooling | http://mago.carthage.software |
+| `photocraft` | An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust | https://github.com/storytold/photocraft |
 | `roadrunner` | High-performance PHP application server and process manager | https://roadrunner.dev |
 | `traynard` | Windows desktop utility for minimizing app windows to the system tray | https://github.com/tabris17/traynard |
 | `ttsg` | Tiny Windows desktop countdown app to remind you when it's time to clock out | https://github.com/tabris17/TTSG |
@@ -32,7 +34,9 @@ scoop install tabris17/<app-name>
 scoop install tabris17/agent-browser
 scoop install frankenphp
 scoop install lazycli
+scoop install lightcraft
 scoop install mago
+scoop install photocraft
 scoop install roadrunner
 scoop install traynard
 scoop install ttsg
