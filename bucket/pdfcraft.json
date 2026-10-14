@@ -1,0 +1,22 @@
+{
+    "version": "0.7.1",
+    "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+    "homepage": "https://github.com/storytold/pdfcraft",
+    "license": "MIT",
+    "url": "https://github.com/storytold/pdfcraft/releases/download/v0.7.1/pdfcraft-0.7.1-windows-x64-portable.zip",
+    "hash": "6632068a4f7fdf1fb6a3b9d431e6d088bb7cbbeb066e47f815a1e498b45d7ecf",
+    "extract_dir": "pdfcraft-0.7.1-windows-x64-portable",
+    "bin": "pdfcraft.exe",
+    "shortcuts": [
+        [
+            "pdfcraft.exe",
+            "PdfCraft"
+        ]
+    ],
+    "persist": "PdfCraftData",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/storytold/pdfcraft/releases/download/v$version/pdfcraft-$version-windows-x64-portable.zip",
+        "extract_dir": "pdfcraft-$version-windows-x64-portable"
+    }
+}
