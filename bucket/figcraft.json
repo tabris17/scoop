@@ -1,0 +1,21 @@
+{
+    "version": "0.5.1",
+    "description": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust",
+    "homepage": "https://github.com/storytold/figcraft",
+    "license": "MIT",
+    "url": "https://github.com/storytold/figcraft/releases/download/v0.5.1/figcraft-0.5.1-windows-x64-portable.zip",
+    "hash": "554c28eb0bac0e19a18e7d68f7a77eedfd000bd83f7f3a40e05b8032590c69a3",
+    "extract_dir": "figcraft-0.5.1-windows-x64-portable",
+    "bin": "figcraft.exe",
+    "shortcuts": [
+        [
+            "figcraft.exe",
+            "FigCraft"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/storytold/figcraft/releases/download/v$version/figcraft-$version-windows-x64-portable.zip",
+        "extract_dir": "figcraft-$version-windows-x64-portable"
+    }
+}
