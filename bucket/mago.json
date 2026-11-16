@@ -1,11 +1,11 @@
 {
-    "version": "1.60.1",
+    "version": "1.60.2",
     "description": "Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code",
     "homepage": "http://mago.carthage.software",
     "license": "MIT",
-    "url": "https://github.com/carthage-software/mago/releases/download/1.60.1/mago-1.60.1-x86_64-pc-windows-msvc.zip",
-    "hash": "04847f3a7c399a01dd70e0c20ddf33ab067fe61c6eb49e07763aa575401525e9",
-    "extract_dir": "mago-1.60.1-x86_64-pc-windows-msvc",
+    "url": "https://github.com/carthage-software/mago/releases/download/1.60.2/mago-1.60.2-x86_64-pc-windows-msvc.zip",
+    "hash": "d9bfa9d911798ae9106771b0237cbf9d6212f7eec6b0fd51824cfeb15418e198",
+    "extract_dir": "mago-1.60.2-x86_64-pc-windows-msvc",
     "bin": "mago.exe",
     "checkver": {
         "github": "https://github.com/carthage-software/mago"
